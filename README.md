@@ -28,6 +28,6 @@ cosign verify --key cosign.pub ghcr.io/sniperhayam/os
 ```
 
 ROAD MAP :
-  - Port hardened_malloc from Graphene OS and libpledge and libunveil from Alphine Linux.
+  - Port hardened_malloc from Graphene OS
   - Add MOK enrollment module
-  - Restrict SELinux to always enforcing at run time.
+  - Restrict SELinux to always enforcing at run time & more !
