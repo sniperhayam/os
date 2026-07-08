@@ -1,4 +1,4 @@
-> _ Heads Up: This project does not have a proper maintenance schedule. try at your own discretion._
+> _Heads Up: This project does not have a proper maintenance schedule. try at your own discretion._
 
 To rebase an existing atomic Fedora installation to the latest build:  
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:  
