@@ -38,5 +38,5 @@ modules:
         - gnome-tour
         - remote-viewer
         - gnome-software
-        - malcontent-controlW
+        - malcontent-control
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
