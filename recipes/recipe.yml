@@ -23,10 +23,8 @@ modules:
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
-        - atim/starship
     install:
       packages:
-        - starship
         - brave-origin
     remove:
       packages:
