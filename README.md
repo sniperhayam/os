@@ -24,10 +24,5 @@ systemctl reboot
 **Verification**  
 You can verify the signature by downloading the cosign.pub file from this repo and running the following command in the same directory as cosign:
 ```
-cosign verify --key cosign.pub ghcr.io/sniperhayam/os
+cosign verify --key cosign.pub ghcr.io/hayam-ahamed/os
 ```
-
-ROAD MAP :
-  - Port hardened_malloc from Graphene OS
-  - Add MOK enrollment module
-  - Restrict SELinux to always enforcing at run time & more !
