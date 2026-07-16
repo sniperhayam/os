@@ -18,11 +18,8 @@ rpm-ostree rebase ostree-image-signed:docker://ghcr.io/hayam-ahamed/os:latest
 ```
 systemctl reboot
 ```
-   
-<!-- **ISO**   -->
-<!-- If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here. These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.](#anchor-1 "#anchor-1")   -->
-**Verification**  
-You can verify the signature by downloading the cosign.pub file from this repo and running the following command in the same directory as cosign:
+5. Verify 
+You should verify the signature by downloading the [cosign.pub](https://github.com/hayam-ahamed/os/edit/main/cosign.pub) file from this repo and running the following command in the same directory as cosign to ensure the installation wasn't tampered by anyone:
 ```
 cosign verify --key cosign.pub ghcr.io/hayam-ahamed/os
 ```
